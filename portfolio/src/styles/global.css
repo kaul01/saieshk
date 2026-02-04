@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* Uses the colors we will define in the config below */
+    @apply bg-black text-white font-sans selection:bg-primary selection:text-white;
+  }
+}
